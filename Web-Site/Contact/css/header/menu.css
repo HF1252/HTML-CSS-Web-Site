@@ -1,0 +1,46 @@
+.menu-content {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    right: 100%;
+    z-index: 80;
+    background-color: rgb(128, 128, 56);
+    transform: all 0.5s;
+}
+
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+
+.menu-content ul li {
+    border-bottom: solid 1px #fff;
+    list-style: none;
+}
+
+.menu-content ul li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    font-size: 15%;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 9px 15px 10px 0;
+}
+
+.menu-content ul li a::before {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #fff;
+    border-right: solid 2px #fff;
+    transform: rotate(45deg);
+    right: 11px;
+    top: 16px;
+}
+
+#menu-btn-check:checked ~ .menu-content {
+    right: 0;
+}

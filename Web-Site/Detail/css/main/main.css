@@ -1,0 +1,45 @@
+.Company-profile {
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+    text-align: center;
+}
+
+.Company-profile__area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.Company-profile__Heading {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    width: 10rem;
+    padding-right: 0.3rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .Company-profile__Heading {
+        width: 20rem;
+        padding-right: 2.4rem;
+    }
+}
+
+.Company-profile__explanation {
+    font-size: 1.2rem;
+    width: 14rem;
+    line-height: 2.4rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .Company-profile__explanation {
+        width: 40rem;
+    }
+}

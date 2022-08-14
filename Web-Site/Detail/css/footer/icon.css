@@ -1,0 +1,10 @@
+.icon {
+    font-size: 32px;
+    padding-bottom: 24px;
+}
+
+.icon__link {
+    color: white;
+    text-decoration: none;
+    padding-right: 1%;
+}

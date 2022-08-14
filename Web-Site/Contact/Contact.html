@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- header -->
+        <link rel="stylesheet" href="css/header/hamburger.css" />
+        <link rel="stylesheet" href="css/header/menu.css" />
+        <link rel="stylesheet" href="css/header/headPage.css" />
+        <link rel="stylesheet" href="css/header/header.css" />
+        <!-- main -->
+        <link rel="stylesheet" href="css/main/main.css" />
+        <link rel="stylesheet" href="css/main/input.css" />
+        <link rel="stylesheet" href="css/main/select.css" />
+        <link rel="stylesheet" href="css/main/scroll.css" />
+        <!-- footer -->
+        <link rel="stylesheet" href="css/footer/icon.css" />
+        <link rel="stylesheet" href="css/footer/footer.css" />
+        <!-- "SNSアイコンlink"Start -->
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"
+        />
+        <!-- FontAwesome Here! -->
+        <script
+            src="https://kit.fontawesome.com/3fb66cc93e.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- "SNSアイコンlink"End -->
+        <title>Contact</title>
+    </head>
+    <body>
+        <header>
+            <!-- ”ハンバーガーメニュー”Start -->
+            <div class="hamburger-menu">
+                <input type="checkbox" id="menu-btn-check" />
+                <label for="menu-btn-check" class="menu-btn">
+                    <span></span>
+                </label>
+                <!-- ”メニュー欄”Start -->
+                <div class="menu-content">
+                    <ul>
+                        <li>
+                            <a href="../Top/Top.html">Top</a>
+                        </li>
+                        <li>
+                            <a href="../Detail/Detail.html">Detail</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- ”メニュー欄”End -->
+            </div>
+            <!-- "ハンバーガーメニュー"End -->
+            <!-- "headの見出しと文"Start -->
+            <div class="head-page">
+                <h2 class="head-page__item">Contact</h2>
+                <p class="head-page__explanation">Contact us here.</p>
+            </div>
+            <!-- "headの見出しと文"End-->
+        </header>
+        <main>
+            <!-- ”入力フォーム”Start -->
+            <div class="input__form">
+                <form action="#" method="POST">
+                    <!-- 名前入力欄 -->
+                    <div class="user-name">
+                        <div class="user-name__label">
+                            <label for="username">User Name:(Required):</label>
+                        </div>
+                        <div class="user-name__box">
+                            <input
+                                class="user-name__input"
+                                type="text"
+                                name="username"
+                                id="username"
+                                value=""
+                                placeholder="e.g. Roy James Wilhelm"
+                            />
+                        </div>
+                    </div>
+                    <!-- メールアドレス入力欄 -->
+                    <div class="user-email">
+                        <div class="user-email__label">
+                            <label for="useremail">Email:(Required):</label>
+                        </div>
+                        <div class="user-email__box">
+                            <input
+                                class="user-email__input"
+                                type="email"
+                                name="useremail"
+                                id="useremail"
+                                value=""
+                                placeholder="e.g. XXXX@gmail.com"
+                            />
+                        </div>
+                    </div>
+                    <!-- 電話番号入力欄 -->
+                    <div class="user-tel">
+                        <div class="user-tel__label">
+                            <label for="usertel">TAL:(Required):</label>
+                        </div>
+                        <div class="user-tel__box">
+                            <input
+                                class="user-tel__input"
+                                type="tel"
+                                name="usertel"
+                                id="usertel"
+                                value=""
+                                placeholder="e.g. 000-7777-8888"
+                            />
+                        </div>
+                    </div>
+                    <!-- お問い合わせ種類 -->
+                    <div class="contact-type">
+                        <div class="contact-type__label">
+                            <label for="type">Contact Type:</label>
+                        </div>
+                        <div class="contact-type__box">
+                            <select
+                                class="contact-type__select"
+                                name="type"
+                                id="type"
+                            >
+                                <option value="1">About the Programming</option>
+                                <option value="2">About the Game</option>
+                                <option value="3">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- お問い合わせ内容入力欄 -->
+                    <div class="contact-details">
+                        <div class="contact-details__label">
+                            <label for="content">Contact Details:</label>
+                        </div>
+                        <div class="contact-details__box">
+                            <input
+                                class="contact-details__input"
+                                name="content"
+                                id="content"
+                            />
+                        </div>
+                    </div>
+                    <!-- 送信ボタン -->
+                    <div class="submit-btn__box">
+                        <input
+                            class="submit-btn__input"
+                            type="submit"
+                            value="Send"
+                        />
+                    </div>
+                </form>
+                <!-- ”スクロールボタン”Start-->
+                <div class="scroll">
+                    <div class="scroll-icon">
+                        <i class="fas fa-arrow-up"></i>
+                        <a class="scroll-top" href="#">Top</a>
+                    </div>
+                </div>
+                <!-- ”スクロールボタン”End -->
+            </div>
+            <!-- ”入力フォーム”End -->
+        </main>
+        <footer>
+            <!-- ”SNSアイコン”Start -->
+            <div class="icon">
+                <a class="icon__link" href="https://twitteer.com/">
+                    <i class="fab fa-twitter px-2x text-info"></i>
+                </a>
+                <a class="icon__link" href="https://www.facebook.com/">
+                    <i class="fab fa-facebook px-2 text-primary"></i>
+                </a>
+                <a class="icon__link" href="https://www.youtube.com/">
+                    <i class="fab fa-youtube px-2x text-danger"></i>
+                </a>
+            </div>
+            <!-- ”SNSアイコン”End -->
+            <div>
+                <small class="copy">&copy; 2022 H.F</small>
+            </div>
+        </footer>
+        <!-- "SNSアイコンLink"Start-->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+            crossorigin="anonymous"
+        ></script>
+        <!-- "SNSアイコンLink"End -->
+    </body>
+</html>

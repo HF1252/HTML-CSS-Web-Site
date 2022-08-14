@@ -1,0 +1,72 @@
+.user-name__box {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.user-name__input {
+    text-align: center;
+    width: 20rem;
+    height: 1.5rem;
+}
+
+@media screen and (max-width: 820px) {
+    .user-name__input {
+        width: 10rem;
+        height: 1.2rem;
+    }
+}
+
+.user-email__box {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.user-email__input {
+    text-align: center;
+    width: 20rem;
+    height: 1.5rem;
+}
+
+@media screen and (max-width: 820px) {
+    .user-email__input {
+        width: 10rem;
+        height: 1.2rem;
+    }
+}
+
+.user-tel__box {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.user-tel__input {
+    text-align: center;
+    width: 20rem;
+    height: 1.5rem;
+}
+
+@media screen and (max-width: 820px) {
+    .user-tel__input {
+        width: 10rem;
+        height: 1.2rem;
+    }
+}
+
+.contact-details__input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 300px;
+}
+
+@media screen and (max-width: 820px) {
+    .contact-details__input {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.submit-btn__input {
+    font-family: serif;
+    font-weight: 700;
+}

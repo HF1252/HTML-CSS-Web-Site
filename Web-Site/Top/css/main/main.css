@@ -1,0 +1,10 @@
+.main-page {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.main-page__title {
+    font-family: serif;
+    font-weight: 700;
+}

@@ -1,0 +1,11 @@
+.scroll {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.scroll-top {
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+    font-family: serif;
+}

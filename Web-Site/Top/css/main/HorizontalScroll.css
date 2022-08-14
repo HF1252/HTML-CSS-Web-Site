@@ -1,0 +1,38 @@
+.items-img {
+    width: 400px;
+    height: 250px;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 820px) {
+    .items-img {
+        width: 270px;
+        height: 150px;
+    }
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.items-titles {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.items-explanation {
+    padding-bottom: 20px;
+}
+
+.horizontal-items {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.items {
+    padding: 0 10px;
+}
